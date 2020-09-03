@@ -12,7 +12,7 @@ You may decide to run a node of your own for a few reasons:
 
 - To develop and deploy contracts on a node connected to `MainNet`, `TestNet` or `BetaNet` (†)
 - To develop and deploy contracts on a local (independent and isolated) node (sometimes called "LocalNet"). (††)
-- To join a network as a validator running a "validator node" (see [staking](/docs/validator/staking))
+- To join a network as a validator running a "validator node" (see [staking](/docs/roles/validator/staking))
 
 _( † ) `TestNet` is intended to operate as closely (similarly) to `MainNet`  as possible with only stable releases while `BetaNet` follows a weekly release cycle._
 
@@ -59,7 +59,7 @@ nearup betanet
 _(If you prefer to use `TestNet` then just replace `betanet` with `testnet` in the command above)_
 
 
-You will then be prompted for an Account ID. You can leave this empty if you would just like to run a node. Validators should use the account ID of the account you want to stake with. See [staking](/docs/validator/staking) if you would like to become a validator.
+You will then be prompted for an Account ID. You can leave this empty if you would just like to run a node. Validators should use the account ID of the account you want to stake with. See [staking](/docs/roles/validator/staking) if you would like to become a validator.
 
 ```text
 Enter your account ID (leave empty if not going to be a validator):
@@ -136,7 +136,7 @@ nearup betanet --nodocker --binary-path path/to/nearcore/target/release
 
 If you want to run `TestNet` instead of `BetaNet` then replace `betanet` with `testnet` in the command above.
 
-You will then be prompted for an Account ID. You can leave this empty if you would just like to run a node. Validators should use the account ID of the account you want to stake with. See [staking](/docs/validator/staking) if you would like to become a validator.
+You will then be prompted for an Account ID. You can leave this empty if you would just like to run a node. Validators should use the account ID of the account you want to stake with. See [staking](/docs/roles/validator/staking) if you would like to become a validator.
 
 ```text
 Enter your account ID (leave empty if not going to be a validator):

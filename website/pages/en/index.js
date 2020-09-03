@@ -159,7 +159,7 @@ class HomeSplash extends React.Component {
             </RoleButton>
 
             <RoleButton
-              href={docUrl("validator/staking-overview")}
+              href={docUrl("roles/validator/staking-overview")}
               title="Validators"
               slogan="Enable the future you want to see"
               // productive="30 mins"

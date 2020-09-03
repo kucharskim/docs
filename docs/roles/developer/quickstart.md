@@ -50,7 +50,7 @@ So we have a decentralized "shared computer" that can call little programs calle
 1. Why should anyone volunteer their computer's resources to run your smart contracts?
 2. What happens if someone writes accidentally runs a smart contract that gets caught in a loop and hogs all the resources?
 
-The answer to both questions is the gas incentive. Folks who participate in running nodes on the blockchain are called validators. They're rewarded for contributing their processing power, storage, and honesty to the collective. (Folks interested in the subject can [become a validator here](/docs/validator/staking).) So validators are rewarded for contributing to keeping the system running, and gas is the cost of sending transactions and invoking smart contracts on the blockchain.
+The answer to both questions is the gas incentive. Folks who participate in running nodes on the blockchain are called validators. They're rewarded for contributing their processing power, storage, and honesty to the collective. (Folks interested in the subject can [become a validator here](/docs/roles/validator/staking).) So validators are rewarded for contributing to keeping the system running, and gas is the cost of sending transactions and invoking smart contracts on the blockchain.
 
 This is a very basic explanation of incentives. Please refer to [our economics paper for more detail](https://near.org/papers/economics-in-sharded-blockchain).
 

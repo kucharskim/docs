@@ -76,4 +76,4 @@ Final: And now run the testnet:
     ```
 
 
- You might be asked for a validator ID; if you do not want to validate, simply press enter. For validation, please refer to the [validation section](validator/staking.md).
+ You might be asked for a validator ID; if you do not want to validate, simply press enter. For validation, please refer to the [validation section](/docs/roles/validator/staking).

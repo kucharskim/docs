@@ -103,18 +103,18 @@
   },
   "validate": {
     "Quickstart": [
-      "validator/staking-overview"
+      "roles/validator/staking-overview"
     ],
     "Staking": [
       "roles/validator/hardware",
-      "validator/staking",
-      "validator/keys",
-      "validator/maintenance",
-      "validator/economics",
-      "validator/deploy-on-mainnet"
+      "roles/validator/staking",
+      "roles/validator/keys",
+      "roles/validator/maintenance",
+      "roles/validator/economics",
+      "roles/validator/deploy-on-mainnet"
     ],
     "FAQ": [
-      "validator/validator-faq"
+      "roles/validator/validator-faq"
     ]
   },
   "integrate": {
